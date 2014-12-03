@@ -23,8 +23,11 @@ ifeq ($(SIM_COUNT), 2)
     LOCAL_CFLAGS += -DANDROID_SIM_COUNT_2
 endif
 
+<<<<<<< HEAD
 LOCAL_MODULE:= libril
 
+=======
+>>>>>>> 3896b5fce11fc15a8952959a405056c2e98da017
 include $(BUILD_SHARED_LIBRARY)
 
 
@@ -45,8 +48,11 @@ LOCAL_CFLAGS :=
 
 LOCAL_MODULE:= libril_static
 
+<<<<<<< HEAD
 # LOCAL_LDLIBS += -lpthread
 
+=======
+>>>>>>> 3896b5fce11fc15a8952959a405056c2e98da017
 include $(BUILD_STATIC_LIBRARY)
 endif # ANDROID_BIONIC_TRANSITION
 endif # BOARD_PROVIDES_LIBRIL
