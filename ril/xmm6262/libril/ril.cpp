@@ -4739,5 +4739,3 @@ rilSocketIdToString(RIL_SOCKET_ID socket_id)
 }
 
 } /* namespace android */
-
-

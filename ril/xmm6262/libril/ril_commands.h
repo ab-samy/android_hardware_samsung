@@ -195,5 +195,3 @@
     {RIL_REQUEST_SET_PREFERRED_NETWORK_LIST, dispatchVoid, responseVoid},
     {RIL_REQUEST_GET_PREFERRED_NETWORK_LIST, dispatchVoid, responseVoid},
     {RIL_REQUEST_HANGUP_VT, dispatchVoid, responseVoid},
-
-
